@@ -24,7 +24,10 @@ Replace <MATERIAL_TYPE>, <NUM_IMAGES>, and <NUM_LOOPS> with your desired materia
 
 For example:
 
-python inference.py --type sandstone --num_generate_images 8 --num_loop 1
+<div id="codeSnippet">
+  <pre><code>python inference.py --type sandstone --num_generate_images 8 --num_loop 1</code></pre>
+  <button onclick="copyCode('python inference.py --type sandstone --num_generate_images 8 --num_loop 1')"></button>
+</div>
 
 This command will generate images using the specified model and parameters, saving them in the Generated_images directory.
 
