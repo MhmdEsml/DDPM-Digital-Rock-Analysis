@@ -7,7 +7,7 @@ import imageio
 from PIL import Image
 import argparse
 
-parser = argparse.ArgumentParser(description="Generate images using the specified model")
+parser = argparse.ArgumentParser(description="Generate images using DDPM")
 parser.add_argument("--type", type=str, choices=["sandstone", "carbonate"], help="Type of material: sandstone or carbonate", required=True)
 parser.add_argument("--num_generate_images", type=int, help="Number of images to generate", default=8)
 parser.add_argument("--num_loop", type=int, help="Number of loops", default=1)
