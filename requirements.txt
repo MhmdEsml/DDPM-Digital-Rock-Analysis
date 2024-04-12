@@ -1,0 +1,9 @@
+gdown==4.7.3
+diffusers==0.27.2
+torch==2.2.1+cu121
+numpy==1.25.2
+tqdm==4.66.2
+os
+imageio==2.31.6
+PIL==9.4.0
+
