@@ -13,11 +13,13 @@ This command will install all the necessary Python packages listed in the requir
 Once you have installed the dependencies you can run the inference script using the following command:
 
 python inference.py --type <MATERIAL_TYPE> --num_generate_images <NUM_IMAGES> --num_loop <NUM_LOOPS>
+
 Replace <MATERIAL_TYPE>, <NUM_IMAGES>, and <NUM_LOOPS> with your desired material type (sandstone or carbonate), the number of images to generate at each loop, and the number of loops, respectively.
 
 For example:
 
 python inference.py --type sandstone --num_generate_images 8 --num_loop 1
+
 This command will generate images using the specified model and parameters, saving them in the Generated_images directory.
 
 **3. Accessing Generated Images**
