@@ -5,14 +5,20 @@ Welcome to the official GitHub repository for the paper titled "Enhancing Digita
 **1. Setting Up Environment**
 Before running the inference script, ensure you have the required dependencies installed. You can install them using the following command:
 
-pip install -r requirements.txt
+<div id="codeSnippet">
+  <pre><code>pip install -r requirements.txt</code></pre>
+  <button onclick="copyCode('pip install -r requirements.txt')">Copy</button>
+</div>
 
 This command will install all the necessary Python packages listed in the requirements.txt file.
 
 **2. Running the Inference Script**
 Once you have installed the dependencies you can run the inference script using the following command:
 
-python inference.py --type <MATERIAL_TYPE> --num_generate_images <NUM_IMAGES> --num_loop <NUM_LOOPS>
+<div id="codeSnippet">
+  <pre><code>python inference.py --type <MATERIAL_TYPE> --num_generate_images <NUM_IMAGES> --num_loop <NUM_LOOPS></code></pre>
+  <button onclick="copyCode('python inference.py --type <MATERIAL_TYPE> --num_generate_images <NUM_IMAGES> --num_loop <NUM_LOOPS>')">Copy</button>
+</div>
 
 Replace <MATERIAL_TYPE>, <NUM_IMAGES>, and <NUM_LOOPS> with your desired material type (sandstone or carbonate), the number of images to generate at each loop, and the number of loops, respectively.
 
@@ -27,7 +33,17 @@ After running the inference script, you can find the generated images in the Gen
 
 That's it! You have successfully run the inference script to generate images using the diffusion model. Feel free to explore and analyze the generated images for your digital rock analysis needs.
 
-
+<script>
+  function copyCode(code) {
+    const el = document.createElement('textarea');
+    el.value = code;
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+    alert('Code copied to clipboard!');
+  }
+</script>
 
 
 
