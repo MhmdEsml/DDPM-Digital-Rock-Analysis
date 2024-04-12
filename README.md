@@ -32,20 +32,3 @@ This command will generate images using the specified model and parameters, savi
 After running the inference script, you can find the generated images in the Generated_images directory. Additionally, the script will compress the images into a zip file named Generated_images.zip for easier distribution and storage.
 
 That's it! You have successfully run the inference script to generate images using the diffusion model. Feel free to explore and analyze the generated images for your digital rock analysis needs.
-
-<script>
-  function copyCode(code) {
-    const el = document.createElement('textarea');
-    el.value = code;
-    document.body.appendChild(el);
-    el.select();
-    document.execCommand('copy');
-    document.body.removeChild(el);
-    alert('Code copied to clipboard!');
-  }
-</script>
-
-
-
-
-
