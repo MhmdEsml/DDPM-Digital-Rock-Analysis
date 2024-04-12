@@ -4,5 +4,4 @@ torch==2.2.1+cu121
 numpy==1.25.2
 tqdm==4.66.2
 imageio==2.31.6
-PIL
 
