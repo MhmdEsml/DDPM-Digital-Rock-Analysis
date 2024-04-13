@@ -61,14 +61,16 @@ That's it! You have successfully run the inference script to generate images usi
 ## Citation
 
 <div id="citation">
-  <pre><code>@article{esmaeili2024enhancing,
-  title={Enhancing digital rock analysis through generative artificial intelligence: Diffusion models},
-  author={Esmaeili, Mohammad},
-  journal={Neurocomputing},
-  volume={587C},
-  pages={127676},
-  year={2024},
-  publisher={Elsevier}
+  <pre><code>@article{ESMAEILI2024127676,
+title = {Enhancing digital rock analysis through generative artificial intelligence: Diffusion models},
+journal = {Neurocomputing},
+volume = {587},
+pages = {127676},
+year = {2024},
+issn = {0925-2312},
+doi = {https://doi.org/10.1016/j.neucom.2024.127676},
+url = {https://www.sciencedirect.com/science/article/pii/S0925231224004478},
+author = {Mohammad Esmaeili},
 }</code></pre>
   <button onclick="copyCitation()"></button>
 </div>
