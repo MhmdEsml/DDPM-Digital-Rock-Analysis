@@ -70,5 +70,5 @@ That's it! You have successfully run the inference script to generate images usi
   year={2024},
   publisher={Elsevier}
 }</code></pre>
-  <button onclick="copyCitation()">Copy Citation</button>
+  <button onclick="copyCitation()"></button>
 </div>
