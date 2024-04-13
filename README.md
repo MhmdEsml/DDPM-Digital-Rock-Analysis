@@ -36,35 +36,23 @@ After running the inference script, you can find the generated images in the Gen
 
 That's it! You have successfully run the inference script to generate images using the diffusion model. Feel free to explore and analyze the generated images for your digital rock analysis needs.
 
-<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    /* CSS to center align the captions */
-    figcaption {
-      text-align: center;
-    }
-  </style>
-</head>
-<body>
-  <table align="center">
-    <tr>
-      <td style="text-align: center;">
-        <div>
-          <img src="Images/8.png" alt="Sandstone Images">
-          <figcaption>Sandstone Images</figcaption>
-        </div>
-      </td>
-      <td style="text-align: center;">
-        <div>
-          <img src="Images/8.png" alt="Carbonate Images">
-          <figcaption>Carbonate Images</figcaption>
-        </div>
-      </td>
-    </tr>
-  </table>
-</body>
-</html>
+<table align="center">
+  <tr>
+    <td style="text-align: center;">
+      <div>
+        <img src="Images/8.png" alt="Sandstone Images">
+        <figcaption>Sandstone Images</figcaption>
+      </div>
+    </td>
+    <td style="text-align: center;">
+      <div>
+        <img src="Images/8.png" alt="Carbonate Images">
+        <figcaption>Carbonate Images</figcaption>
+      </div>
+    </td>
+  </tr>
+</table>
+
 
 
 
