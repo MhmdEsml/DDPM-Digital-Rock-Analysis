@@ -66,7 +66,7 @@ That's it! You have successfully run the inference script to generate images usi
   author={Esmaeili, Mohammad},
   journal={Neurocomputing},
   volume={587C},
-  pages={},
+  pages={127676},
   year={2024},
   publisher={Elsevier}
 }</code></pre>
