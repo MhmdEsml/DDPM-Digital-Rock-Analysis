@@ -3,6 +3,7 @@ Welcome to the official GitHub repository for the paper titled "**Enhancing Digi
 
 ## Installing the Requirements and Running the Inference Script
 **1. Setting Up Environment**
+
 Before running the inference script, ensure you have the required dependencies installed. You can install them using the following command:
 
 <div id="codeSnippet">
@@ -13,6 +14,7 @@ Before running the inference script, ensure you have the required dependencies i
 This command will install all the necessary Python packages listed in the requirements.txt file.
 
 **2. Running the Inference Script**
+
 Once you have installed the dependencies you can run the inference script using the following command:
 
 <div id="codeSnippet">
@@ -32,6 +34,7 @@ For example:
 This command will generate images using the specified model and parameters, saving them in the "./Generated_images" directory.
 
 **3. Accessing Generated Images**
+
 After running the inference script, you can find the generated images in the "./Generated_images" directory. Additionally, the script will compress the images into a zip file named Generated_images.zip for easier distribution and storage.
 
 That's it! You have successfully run the inference script to generate images using the diffusion model. Feel free to explore and analyze the generated images for your digital rock analysis needs.
