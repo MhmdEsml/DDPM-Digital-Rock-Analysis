@@ -41,19 +41,17 @@ That's it! You have successfully run the inference script to generate images usi
     <td style="text-align: center;">
       <div>
         <img src="Images/8.png" alt="Sandstone Images">
-        <figcaption>Sandstone Images</figcaption>
+        <figcaption style="text-align: center;">Sandstone Images</figcaption>
       </div>
     </td>
     <td style="text-align: center;">
       <div>
         <img src="Images/8.png" alt="Carbonate Images">
-        <figcaption>Carbonate Images</figcaption>
+        <figcaption style="text-align: center;">Carbonate Images</figcaption>
       </div>
     </td>
   </tr>
 </table>
-
-
 
 
 **4. Examples of Real and Generated Images**
