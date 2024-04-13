@@ -29,7 +29,7 @@ For example:
   <button onclick="copyCode('python inference.py --type sandstone --num_generate_images 8 --num_loop 1')"></button>
 </div>
 
-This command will generate images using the specified model and parameters, saving them in the Generated_images directory.
+This command will generate images using the specified model and parameters, saving them in the "./Generated_images" directory.
 
 **3. Accessing Generated Images**
 After running the inference script, you can find the generated images in the Generated_images directory. Additionally, the script will compress the images into a zip file named Generated_images.zip for easier distribution and storage.
