@@ -72,12 +72,3 @@ That's it! You have successfully run the inference script to generate images usi
 }</code></pre>
   <button onclick="copyCitation()">Copy Citation</button>
 </div>
-
-<script>
-  function copyCitation() {
-    const citationText = document.getElementById("citation").innerText;
-    navigator.clipboard.writeText(citationText)
-      .then(() => alert('Citation copied to clipboard'))
-      .catch(err => console.error('Could not copy citation: ', err));
-  }
-</script>
