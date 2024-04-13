@@ -57,3 +57,27 @@ That's it! You have successfully run the inference script to generate images usi
     </td>
   </tr>
 </table>
+
+**Citation**
+
+<div id="citation">
+  <pre><code>@article{esmaeili2024enhancing,
+  title={Enhancing digital rock analysis through generative artificial intelligence: Diffusion models},
+  author={Esmaeili, Mohammad},
+  journal={Neurocomputing},
+  volume={587C},
+  pages={},
+  year={2024},
+  publisher={Elsevier}
+}</code></pre>
+  <button onclick="copyCitation()">Copy Citation</button>
+</div>
+
+<script>
+  function copyCitation() {
+    const citationText = document.getElementById("citation").innerText;
+    navigator.clipboard.writeText(citationText)
+      .then(() => alert('Citation copied to clipboard'))
+      .catch(err => console.error('Could not copy citation: ', err));
+  }
+</script>
