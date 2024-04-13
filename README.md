@@ -36,6 +36,24 @@ After running the inference script, you can find the generated images in the Gen
 
 That's it! You have successfully run the inference script to generate images using the diffusion model. Feel free to explore and analyze the generated images for your digital rock analysis needs.
 
+<table>
+  <tr>
+    <td>
+      <figure>
+        <img src="Images/8.png" alt="Sandstone Images">
+        <figcaption>Sandstone Images</figcaption>
+      </figure>
+    </td>
+    <td>
+      <figure>
+        <img src="Images/8.png" alt="Carbonate Images">
+        <figcaption>Carbonate Images</figcaption>
+      </figure>
+    </td>
+  </tr>
+</table>
+
+
 **4. Examples of Real and Generated Images**
 <table>
   <tr>
