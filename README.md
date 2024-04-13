@@ -16,8 +16,8 @@ This command will install all the necessary Python packages listed in the requir
 Once you have installed the dependencies you can run the inference script using the following command:
 
 <div id="codeSnippet">
-  <pre><code>python inference.py --type <MATERIAL_TYPE> --num_generate_images <NUM_IMAGES> --num_loop <NUM_LOOPS></code></pre>
-  <button onclick="copyCode('python inference.py --type <MATERIAL_TYPE> --num_generate_images <NUM_IMAGES> --num_loop <NUM_LOOPS>')"></button>
+  <pre><code>python inference.py --type &lt;MATERIAL_TYPE&gt; --num_generate_images &lt;NUM_IMAGES&gt; --num_loop &lt;NUM_LOOPS&gt;</code></pre>
+  <button onclick="copyCode('python inference.py --type &lt;MATERIAL_TYPE&gt; --num_generate_images &lt;NUM_IMAGES&gt; --num_loop &lt;NUM_LOOPS&gt;')">Copy Code</button>
 </div>
 
 Replace <MATERIAL_TYPE>, <NUM_IMAGES>, and <NUM_LOOPS> with your desired material type (sandstone or carbonate), the number of images to generate at each loop, and the number of loops, respectively.
