@@ -74,13 +74,13 @@ That's it! You have successfully run the inference script to generate images usi
   <tr>
     <td style="text-align: center;">
       <div>
-        <img src="Images/8.png" alt="Sandstone Images">
+        <img src="Images/8.png" alt="                        Sandstone Images">
         <figcaption>Sandstone Images</figcaption>
       </div>
     </td>
     <td style="text-align: center;">
       <div>
-        <img src="Images/8.png" alt="Carbonate Images">
+        <img src="Images/8.png" alt="                        Carbonate Images">
         <figcaption>Carbonate Images</figcaption>
       </div>
     </td>
