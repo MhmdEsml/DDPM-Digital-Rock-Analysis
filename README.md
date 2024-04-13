@@ -40,20 +40,23 @@ That's it! You have successfully run the inference script to generate images usi
 
 <table align="center">
   <tr>
-    <td style="text-align: center;">
-      <div>
+    <td>
+      <div style="text-align: center;">
         <img src="Images/8.png" alt="Sandstone Images">
-        <figcaption>Sandstone Images</figcaption>
+        <br>
+        <span style="display: block;">Sandstone Images</span>
       </div>
     </td>
-    <td style="text-align: center;">
-      <div>
+    <td>
+      <div style="text-align: center;">
         <img src="Images/8.png" alt="Carbonate Images">
-        <figcaption>Carbonate Images</figcaption>
+        <br>
+        <span style="display: block;">Carbonate Images</span>
       </div>
     </td>
   </tr>
 </table>
+
 
 
 
