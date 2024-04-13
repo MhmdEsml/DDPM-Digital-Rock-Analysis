@@ -39,7 +39,7 @@ After running the inference script, you can find the generated images in the "./
 
 That's it! You have successfully run the inference script to generate images using the diffusion model. Feel free to explore and analyze the generated images for your digital rock analysis needs.
 
-**4. Examples of Real and Generated Images**
+## Examples of Real and Generated Images
 
 <table align="center">
   <tr>
@@ -58,7 +58,7 @@ That's it! You have successfully run the inference script to generate images usi
   </tr>
 </table>
 
-**Citation**
+## Citation
 
 <div id="citation">
   <pre><code>@article{esmaeili2024enhancing,
