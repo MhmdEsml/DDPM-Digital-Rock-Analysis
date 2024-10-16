@@ -22,19 +22,16 @@ Once you have installed the dependencies you can run the inference script using 
   <button onclick="copyCode('python inference.py --type &lt;MATERIAL_TYPE&gt; --num_generate_images &lt;NUM_IMAGES&gt; --num_loop &lt;NUM_LOOPS&gt;')"></button>
 </div>
 
-After running this script, you can choose the dataset, the numbers of training, validation, and test data.
-This datasets are available:
-  Berea
-  Bandera Brown
-  Bandera Gray
-  Bentheimer
-  Berea Sister Gray
-  Berea Upper Gray
-  Buff Berea
-  CastleGate
-  Kirby
-  Leopard
-  Parker
+Replace <MATERIAL_TYPE>, <NUM_IMAGES>, and <NUM_LOOPS> with your desired material type (sandstone or carbonate), the number of images to generate at each loop, and the number of loops, respectively.
+
+For example:
+
+<div id="codeSnippet">
+  <pre><code>python inference.py --type sandstone --num_generate_images 8 --num_loop 1</code></pre>
+  <button onclick="copyCode('python inference.py --type sandstone --num_generate_images 8 --num_loop 1')"></button>
+</div>
+
+This command will generate images using the specified model and parameters, saving them in the "./Generated_images" directory.
 
 **3. Accessing Generated Images**
 
