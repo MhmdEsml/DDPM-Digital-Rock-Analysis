@@ -49,7 +49,6 @@ That's it! You have successfully run the inference script to generate images usi
 You may still be able to access the file from the browser:
 
 	 https://drive.google.com/uc?id=1rifCP9gTgoBobhMugEuhtUcMfWYTpt62 </code></pre>
-  <button onclick="copyCode('python inference.py --type sandstone --num_generate_images 8 --num_loop 1')"></button>
 </div>
 
 
