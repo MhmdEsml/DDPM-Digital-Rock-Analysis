@@ -42,15 +42,11 @@ That's it! You have successfully run the inference script to generate images usi
 **Note:** if you encounter the following error:
 <div id="codeSnippet">
   <pre><code>Access denied with the following error:
-
  	Cannot retrieve the public link of the file. You may need to change
 	the permission to 'Anyone with the link', or have had many accesses. 
-
 You may still be able to access the file from the browser:
-
 	 https://drive.google.com/uc?id=1rifCP9gTgoBobhMugEuhtUcMfWYTpt62 </code></pre>
 </div>
-
 
 ## Examples of Real and Generated Images
 
