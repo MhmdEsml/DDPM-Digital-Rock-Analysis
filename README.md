@@ -39,24 +39,14 @@ After running the inference script, you can find the generated images in the "./
 
 That's it! You have successfully run the inference script to generate images using the diffusion model. Feel free to explore and analyze the generated images for your digital rock analysis needs.
 
-**Note:** if you encounter the following error:
-<div id="codeSnippet">
-  <pre><code>Access denied with the following error:
- 	Cannot retrieve the public link of the file. You may need to change
-	the permission to 'Anyone with the link', or have had many accesses. 
-You may still be able to access the file from the browser:
-	 https://drive.google.com/uc?id=1rifCP9gTgoBobhMugEuhtUcMfWYTpt62 </code></pre>
-</div>
-Please download the model directly from my Google Drive and change the model's directory (line 139 in inference.py) based on location of the model in your local machine or cloud.
-
 <div id="noteSection">
   <h4>Note:</h4>
   <p>If you encounter the following error:</p>
   <pre><code>Access denied with the following error:
-Cannot retrieve the public link of the file. You may need to change
-the permission to 'Anyone with the link', or have had many accesses.
+	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses.
 You may still be able to access the file from the browser:
-https://drive.google.com/uc?id=1rifCP9gTgoBobhMugEuhtUcMfWYTpt62
+	https://drive.google.com/uc?id=1rifCP9gTgoBobhMugEuhtUcMfWYTpt62
   </code></pre>
 
   <p>This error indicates that the model file hosted on Google Drive has restricted access. To resolve this issue:</p>
