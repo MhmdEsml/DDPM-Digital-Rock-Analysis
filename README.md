@@ -39,7 +39,19 @@ After running the inference script, you can find the generated images in the "./
 
 That's it! You have successfully run the inference script to generate images using the diffusion model. Feel free to explore and analyze the generated images for your digital rock analysis needs.
 
-*** Note ***
+**Note:** if you encounter the following error:
+<div id="codeSnippet">
+  <pre><code>Access denied with the following error:
+
+ 	Cannot retrieve the public link of the file. You may need to change
+	the permission to 'Anyone with the link', or have had many accesses. 
+
+You may still be able to access the file from the browser:
+
+	 https://drive.google.com/uc?id=1rifCP9gTgoBobhMugEuhtUcMfWYTpt62 </code></pre>
+  <button onclick="copyCode('python inference.py --type sandstone --num_generate_images 8 --num_loop 1')"></button>
+</div>
+
 
 ## Examples of Real and Generated Images
 
