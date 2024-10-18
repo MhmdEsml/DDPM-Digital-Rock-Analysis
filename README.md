@@ -47,6 +47,7 @@ That's it! You have successfully run the inference script to generate images usi
 You may still be able to access the file from the browser:
 	 https://drive.google.com/uc?id=1rifCP9gTgoBobhMugEuhtUcMfWYTpt62 </code></pre>
 </div>
+Please download the model directly from my Google Drive and change the model's directory (line 139 in inference.py) based on location of the model in your local machine or cloud.
 
 ## Examples of Real and Generated Images
 
