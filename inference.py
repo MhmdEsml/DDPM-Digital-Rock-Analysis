@@ -137,7 +137,7 @@ def generate_images(model, step, img_size=512, img_channels=1, num_images=2, tim
 
 def main():
     if device == "cpu":
-    model = torch.load('./model.pth', map_location=torch.device('cpu'), weights_only=False)
+        model = torch.load('./model.pth', map_location=torch.device('cpu'), weights_only=False)
     else:
         model = torch.load('./model.pth', weights_only=False)
     model = model.to(device)
