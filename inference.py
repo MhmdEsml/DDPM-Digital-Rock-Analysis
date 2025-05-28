@@ -136,7 +136,10 @@ def generate_images(model, step, img_size=512, img_channels=1, num_images=2, tim
     return samples
 
 def main():
-    model = torch.load('./model.pth', weights_only=False)
+    if device == "cpu":
+    model = torch.load('./model.pth', map_location=torch.device('cpu'), weights_only=False)
+    else:
+        model = torch.load('./model.pth', weights_only=False)
     model = model.to(device)
 
     if not os.path.exists('./Generated_images'):
