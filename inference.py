@@ -16,10 +16,10 @@ args = parser.parse_args()
 while True:
     type = args.type
     if type == 'carbonate':
-        file_id = '1eODve5OnefilLwQVpnRAHCgPcM6LyLkH'
+        file_id = '1JVZ7bz0nloPNd4mK-bYAuSVW61hT3G5f'
         break
     elif type == 'sandstone':
-        file_id = '1rifCP9gTgoBobhMugEuhtUcMfWYTpt62'
+        file_id = '1tlRlSOfDDc1x_l0kD2lv8QrwlfUEMhFr'
         break
     else:
         print("Invalid type! Please choose between 'sandstone' and 'carbonate'.")
@@ -136,7 +136,7 @@ def generate_images(model, step, img_size=512, img_channels=1, num_images=2, tim
     return samples
 
 def main():
-    model = torch.load('./model.pth')
+    model = torch.load('./model.pth', weights_only=False)
     model = model.to(device)
 
     if not os.path.exists('./Generated_images'):
