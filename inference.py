@@ -16,10 +16,10 @@ args = parser.parse_args()
 while True:
     type = args.type
     if type == 'carbonate':
-        file_id = '1JVZ7bz0nloPNd4mK-bYAuSVW61hT3G5f'
+        file_id = '1qX8tad72YGrlClVD1PcUhF7d1KQLIYKb'
         break
     elif type == 'sandstone':
-        file_id = '1tlRlSOfDDc1x_l0kD2lv8QrwlfUEMhFr'
+        file_id = '1YsAb5Rmevolc39myndNjoIyPofeGgUtu'
         break
     else:
         print("Invalid type! Please choose between 'sandstone' and 'carbonate'.")
