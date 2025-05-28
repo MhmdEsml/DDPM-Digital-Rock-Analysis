@@ -93,11 +93,9 @@ You may still be able to access the file from the browser:
 
 **Alternatively, Run in Google Colab!** 🚀
 
-You can also run the inference script directly in your browser using Google Colab. This is a great way to get started quickly without worrying about local setup.
+You can also run the inference script directly in your browser using Google Colab.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/17giNNwWzzTvt6Vf1FBxt84CHma_GYg33?usp=drive_link)
-
-Click the button above to open the notebook. The Colab environment comes pre-configured with many common libraries, and the notebook will guide you through any further setup and execution steps.
 
 
 ## Citation
